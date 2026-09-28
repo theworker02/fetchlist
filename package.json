@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fetchlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetch identifiers and list tokens for idempotent workflows.",
+  "bin": {
+    "fetchlist": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fetchlist.git"
+  },
+  "homepage": "https://theworker02.github.io/fetchlist/",
+  "keywords": [
+    "fetch",
+    "list",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
